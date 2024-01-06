@@ -23,7 +23,7 @@ public class App1 {
 
         Properties connectionProperties = new Properties();
         connectionProperties.put("user", "root");
-        connectionProperties.put("password", "@sabile@108");
+        connectionProperties.put("password", "******");
 
         Dataset<Row> datasetC=spark.read().option("header",true).jdbc("jdbc:mysql://localhost:3306/db_hopital,","consultations",connectionProperties);
         Dataset<Row> datasetM=spark.read().option("header",true).jdbc("jdbc:mysql://localhost:3306/db_hopital,","medecins",connectionProperties);
