@@ -1,4 +1,4 @@
-# Rapport Global des Applications Spark
+# Spark Sql
 
 ## Application 3 : App2
 
